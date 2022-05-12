@@ -43,8 +43,10 @@ for item in x_listas:
     valor = st.selectbox(f'{item}', x_listas[item])
     dicionario[f'{item}_{valor}'] = 1
 
+# Cria o botão
 botao = st.button('Prever valor do imóvel a ser anunciado!')
 
+# Serve como uma função, executa quando o botão for clicado
 if botao:
     # Juntando os dicionários para criar um único dataframe
     dicionario.update(x_numericos)
