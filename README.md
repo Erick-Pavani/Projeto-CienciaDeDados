@@ -8,3 +8,15 @@ O foco do projeto são imóveis comuns de pessoas comuns, não casas imensas/man
 
 - As bases de dados usadas podem ser obtidas através de um link no arquivo do modelo. Os arquivos são grandes demais para estarem nesse repo.
  
+# Como usar:
+- Passo 1:
+Executar o arquivo "ModeloPrevisãoAirbnb.ipynb", ao fim da execução será criado na mesma pasta um arquivo chamado "modelo.joblib", contendo o modelo de machine laerning pronto.
+
+- Passo 2:
+Execute o arquivo "DeployProjetoAirbnb.py" através do anaconda prompt(navegue até a pasta onde os arquivos se encontram) usando o comando "streamlit run DeployProjetoAirbnb.py"
+
+- Passo 3:
+Uma janela do navegador se abrirá (caso não abra automaticamente, copie o link escrito em azul no anaconda prompt e cole no navegador desejado)
+
+- Passo 4:
+Preencha as informações com as informações do imóvel desejado e use o modelo de previsão para ter resultados mais precisos e consistentes no preço dos seus imóveis que serão anunciados no airbnb no RJ.
