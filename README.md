@@ -9,8 +9,8 @@ O foco do projeto são imóveis comuns de pessoas comuns, não casas imensas/man
 - As bases de dados usadas podem ser obtidas através de um link no arquivo do modelo. Os arquivos são grandes demais para estarem nesse repo.
  
 # Como usar:
-Passo 1:
-- Abrir o link das bases de dados encontrado no arquivo "ModeloPrevisãoAirbnb.ipynb" e baixar as mesmas, coloque a pasta "dataset" na mesma pasta do código.
+- Passo 1:
+Abrir o link das bases de dados encontrado no arquivo "ModeloPrevisãoAirbnb.ipynb" e baixar as mesmas, coloque a pasta "dataset" na mesma pasta do código.
 
 - Passo 2:
 Executar o arquivo "ModeloPrevisãoAirbnb.ipynb" (recomendado executar via jupyter notebook, ou pela extensão do jupyter para vscode), ao fim da execução será criado na mesma pasta um arquivo chamado "modelo.joblib", contendo o modelo de machine laerning pronto.
